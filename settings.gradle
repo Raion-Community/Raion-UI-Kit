@@ -16,3 +16,4 @@ rootProject.name = "Raion UI Kit"
 include ':app'
 include ':raiontoast'
 include ':raionsnackbar'
+include ':raionratingstar'
