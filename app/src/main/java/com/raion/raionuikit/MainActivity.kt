@@ -3,6 +3,8 @@ package com.raion.raionuikit
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.google.android.material.snackbar.Snackbar
+import com.raion.raionsnackbar.RaionSneeze
 import com.raion.raiontoast.RaionToast
 import com.raion.raiontoast.util.ToastType
 
@@ -46,5 +48,17 @@ class MainActivity : AppCompatActivity() {
                     toast.build().show()
                 }
             }
+
+        findViewById<Button>(R.id.btn_test_snackbar).setOnClickListener {
+            RaionSneeze.showInfoSneeze(
+                findViewById(R.id.content), "Hello there this is raion snackbar"
+            )
+/*            Snackbar.make(
+                findViewById(R.id.content), "Hello there this is raion snackbar", Snackbar.LENGTH_SHORT
+            ).show()*/
+/*            Snackbar.make(
+                this,  findViewById(R.id.content), "Hello there this is raion snackbar", Snackbar.LENGTH_SHORT
+            ).show()*/
+        }
     }
 }

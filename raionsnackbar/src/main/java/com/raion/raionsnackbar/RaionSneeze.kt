@@ -29,7 +29,7 @@ class RaionSneeze  {
                 Glide.with(view).load(R.drawable.ic_info).into(ivIcon)
                 tvMessage.text = text
                 container.background = view.context.getDrawable(R.color.blue)
-                sneezeLayout.addView(binding.root)
+                sneezeLayout.addView(binding.root, -1, -1)
             }
             return snackBar
         }
@@ -41,7 +41,7 @@ class RaionSneeze  {
         ) = makeInfoSneeze(view, text, duration).show()
 
         @SuppressLint("UseCompatLoadingForDrawables")
-        fun showSuccessSneeze(
+        fun makeSuccessSneeze(
             view: View,
             text: String = "",
             duration: Int = Snackbar.LENGTH_SHORT
