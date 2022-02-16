@@ -3,7 +3,6 @@ package com.raion.raionuikit
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import com.google.android.material.snackbar.Snackbar
 import com.raion.raionsnackbar.RaionSneeze
 import com.raion.raiontoast.RaionToast
 import com.raion.raiontoast.util.ToastType
@@ -21,7 +20,8 @@ class MainActivity : AppCompatActivity() {
         mainButton = findViewById<Button?>(R.id.btnMain)
             .apply {
                 setOnClickListener {
-                    val toast = RaionToast.getToastBuilder(this@MainActivity)
+                    val toast = RaionToast.Builder()
+                        .setContext(this@MainActivity)
                         .setText("Halo bang ini toast")
                     when(i) {
                         0 -> {
