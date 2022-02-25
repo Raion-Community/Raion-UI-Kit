@@ -1,0 +1,7 @@
+jdk:
+  - openjdk11
+install:
+  - ./gradlew :raionratingstar:build :raionratingstar:publishToMavenLocal -x :raionratingstar:test
+  - ./gradlew :raionsnackbar:build :raionsnackbar:publishToMavenLocal -x :raionsnackbar:test
+  - ./gradlew :raiontoast:build :raiontoast:publishToMavenLocal -x :raiontoast:test
+  - find . -name "*.aar"
