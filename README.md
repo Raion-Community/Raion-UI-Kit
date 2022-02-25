@@ -46,7 +46,7 @@ you can check the version on jitpack badge above or on release tag
 ```kotlin
 RaionToast.Builder()
     .setContext(this@MainActivity)
-    .setText("Halo bang ini toast")
+    .setText("Hello there this is RaionToast")
     .setLogoVisibility(true)
     .setDuration(Toast.LENGTH_SHORT)
     .setToastType(ToastType.INFO)
