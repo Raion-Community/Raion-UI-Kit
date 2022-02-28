@@ -59,7 +59,7 @@ RaionToast.Builder()
 | ```Builder```| - | Build the toast | No default value because it's mandatory |
 | ```setText``` | ```String``` | To set message that will shown from toast | ```""``` |
 | ```setToastType``` | ```ToastType``` | To set type of toast | ```ToastType.NORMAL``` |
-| ```setLogoVisibility``` | ```Boolean``` | To set visibility of GDSC logo  | ```true``` |
+| ```setLogoVisibility``` | ```Boolean``` | To set visibility of Raion logo  | ```true``` |
 | ```setDuration``` | ```Int```| To set duration of toast | ```Toast.LENGTH_SHORT``` |
 | ```setToastShape``` | ```ToastShape``` | To set shape of toast | ```ToastShape.ROUNDED``` |
 | ```build``` | - | To create the toast => returns toast object | - |
