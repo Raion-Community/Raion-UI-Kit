@@ -1,6 +1,6 @@
 [![platform](https://img.shields.io/badge/platform-Android-green.svg)](https://www.android.com)
 [![License](https://img.shields.io/badge/license-MIT-EA4235.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
-[![jitpack](https://jitpack.io/v/KylixEza/GDSCToast.svg)](https://jitpack.io/#KylixEza/Raion-UI-Kit)
+[![jitpack](https://jitpack.io/v/KylixEza/Raion-UI-Kit.svg)](https://jitpack.io/#KylixEza/Raion-UI-Kit)
 
 # Raion-UI-Kit📚
 
