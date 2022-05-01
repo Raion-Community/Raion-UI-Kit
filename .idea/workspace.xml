@@ -9,11 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dd39045-ad43-4f67-bf4d-160b14047a71" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jitpack.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jitpack.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/raiondialog/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/raiondialog/build.gradle" afterDir="false" />
-    </list>
+    <list default="true" id="1dd39045-ad43-4f67-bf4d-160b14047a71" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +37,9 @@
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="1.1.0" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
