@@ -3,4 +3,5 @@ jdk:
 install:
   - ./gradlew :raionsnackbar:build :raionsnackbar:publishToMavenLocal -x :raionsnackbar:test
   - ./gradlew :raiontoast:build :raiontoast:publishToMavenLocal -x :raiontoast:test
+  - ./gradlew :raiondialog:build :raiondialog:publishToMavenLocal -x :raiondialog:test
   - find . -name "*.aar"
