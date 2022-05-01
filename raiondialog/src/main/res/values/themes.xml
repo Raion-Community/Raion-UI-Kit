@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="button_shape">
+        <item name="cornerSize">8dp</item>
+    </style>
+</resources>

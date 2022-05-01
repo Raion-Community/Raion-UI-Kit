@@ -7,23 +7,34 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/btnMain"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Test Toast"
-        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent">
 
-    <Button
-        android:id="@+id/btn_test_snackbar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Test Snackbar"
-        app:layout_constraintTop_toBottomOf="@id/btnMain"
-        app:layout_constraintStart_toStartOf="@id/btnMain"
-        app:layout_constraintEnd_toEndOf="@id/btnMain"/>
+        <Button
+            android:id="@+id/btn_test_toast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Test Toast" />
+
+        <Button
+            android:id="@+id/btn_test_snackbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Test Snackbar" />
+
+        <Button
+            android:id="@+id/btn_test_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Test Dialog" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
