@@ -1,0 +1,25 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Projek Koding\Android Studio\Raion-UI-Kit\raiondialog\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from D:\Projek Koding\Android Studio\Raion-UI-Kit\raiondialog\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from D:\Projek Koding\Android Studio\Raion-UI-Kit\raiondialog\src\main\AndroidManifest.xml:2:1-5:12
+	package
+		ADDED from D:\Projek Koding\Android Studio\Raion-UI-Kit\raiondialog\src\main\AndroidManifest.xml:3:5-38
+		INJECTED from D:\Projek Koding\Android Studio\Raion-UI-Kit\raiondialog\src\main\AndroidManifest.xml
+		INJECTED from D:\Projek Koding\Android Studio\Raion-UI-Kit\raiondialog\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Projek Koding\Android Studio\Raion-UI-Kit\raiondialog\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+INJECTED from D:\Projek Koding\Android Studio\Raion-UI-Kit\raiondialog\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Projek Koding\Android Studio\Raion-UI-Kit\raiondialog\src\main\AndroidManifest.xml
+INJECTED from D:\Projek Koding\Android Studio\Raion-UI-Kit\raiondialog\src\main\AndroidManifest.xml
+INJECTED from D:\Projek Koding\Android Studio\Raion-UI-Kit\raiondialog\src\main\AndroidManifest.xml
+INJECTED from D:\Projek Koding\Android Studio\Raion-UI-Kit\raiondialog\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Projek Koding\Android Studio\Raion-UI-Kit\raiondialog\src\main\AndroidManifest.xml
+		ADDED from D:\Projek Koding\Android Studio\Raion-UI-Kit\raiondialog\src\main\AndroidManifest.xml
+		INJECTED from D:\Projek Koding\Android Studio\Raion-UI-Kit\raiondialog\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Projek Koding\Android Studio\Raion-UI-Kit\raiondialog\src\main\AndroidManifest.xml
+		ADDED from D:\Projek Koding\Android Studio\Raion-UI-Kit\raiondialog\src\main\AndroidManifest.xml
+		INJECTED from D:\Projek Koding\Android Studio\Raion-UI-Kit\raiondialog\src\main\AndroidManifest.xml
