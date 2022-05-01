@@ -1,0 +1,25 @@
+R_DEF: Internal format may change without notice
+local
+anim bottom_in
+anim bottom_out
+anim top_in
+anim top_out
+color DefaultBlack
+color DefaultCyan
+color DefaultGray
+color DefaultRed
+color DefaultWhite
+drawable button_bg
+drawable center_bg
+drawable icon_question_mark
+drawable icon_raion
+id center_background
+id center_icon_iv
+id center_no_btn
+id center_text_tv
+id center_yes_btn
+layout confirm_dialog_center
+style bottom_animation
+style button_shape
+style center_animation
+style top_animation

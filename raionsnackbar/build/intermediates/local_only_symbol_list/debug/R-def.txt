@@ -1,0 +1,26 @@
+R_DEF: Internal format may change without notice
+local
+array com_google_android_gms_fonts_certs
+array com_google_android_gms_fonts_certs_dev
+array com_google_android_gms_fonts_certs_prod
+array preloaded_fonts
+color blue
+color gray
+color green
+color red
+color white
+color yellow
+drawable ic_error
+drawable ic_info
+drawable ic_success
+drawable ic_warning
+drawable logo_raion
+drawable raion
+drawable rounded_button
+font poppins_semibold
+id container
+id iv_icon
+id iv_raion
+id tv_message
+layout snackbar_layout
+string lorem_ipsum

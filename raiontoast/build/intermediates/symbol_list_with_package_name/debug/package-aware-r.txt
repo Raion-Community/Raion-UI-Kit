@@ -1,0 +1,26 @@
+com.raion.raiontoast
+array com_google_android_gms_fonts_certs
+array com_google_android_gms_fonts_certs_dev
+array com_google_android_gms_fonts_certs_prod
+array preloaded_fonts
+color blueInfo
+color grayNormal
+color greenSuccess
+color orangeWarning
+color redError
+color white
+drawable ic_error
+drawable ic_info
+drawable ic_raion
+drawable ic_success
+drawable ic_warning
+drawable rectangle_shape
+drawable rounded_shape
+font poppins_bold
+id toastLayoutParent
+id toastText
+id toastTypeIv
+layout raion_toast_layout
+string raion_logo
+string toast_type_image
+style ToastText
