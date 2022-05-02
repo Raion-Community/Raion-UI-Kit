@@ -110,9 +110,8 @@ RaionSneeze.showInfoSneeze(findViewById(R.id.content), "Hello there this is raio
 Dialog currently available:
 - Confirmation dialog
 
-## - Confirmation Dialog
-Dialog type which has `Icon, Main text, Confirm Button, Cancel Button`
-### Usage
+## Confirmation Dialog Usage
+- Is Dialog type which has `Icon, Main text, Confirm Button, Cancel Button`
 - Default call method
 ```
 val dialog = RaionDialog
