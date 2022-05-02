@@ -110,7 +110,7 @@ RaionSneeze.showInfoSneeze(findViewById(R.id.content), "Hello there this is raio
 Dialog currently available:
 - Confirmation dialog
 
-## Confirmation Dialog Usage
+### Confirmation Dialog Usage
 - Is Dialog type which has `Icon, Main text, Confirm Button, Cancel Button`
 - Default call method
 ```
@@ -132,7 +132,7 @@ dialog.show()
 
 
 
-- You can costumize the dialog with calling available function before calling `build` function
+** - You can costumize the dialog with calling available function before calling `build` function **
 
 ## Contributing
 
