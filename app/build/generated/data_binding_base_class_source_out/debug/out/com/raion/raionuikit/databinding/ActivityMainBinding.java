@@ -20,7 +20,10 @@ public final class ActivityMainBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button btnTestDialog;
+  public final Button btnBottomDialog;
+
+  @NonNull
+  public final Button btnCenterDialog;
 
   @NonNull
   public final Button btnTestSnackbar;
@@ -29,15 +32,21 @@ public final class ActivityMainBinding implements ViewBinding {
   public final Button btnTestToast;
 
   @NonNull
+  public final Button btnTopDialog;
+
+  @NonNull
   public final ConstraintLayout content;
 
-  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnTestDialog,
-      @NonNull Button btnTestSnackbar, @NonNull Button btnTestToast,
+  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnBottomDialog,
+      @NonNull Button btnCenterDialog, @NonNull Button btnTestSnackbar,
+      @NonNull Button btnTestToast, @NonNull Button btnTopDialog,
       @NonNull ConstraintLayout content) {
     this.rootView = rootView;
-    this.btnTestDialog = btnTestDialog;
+    this.btnBottomDialog = btnBottomDialog;
+    this.btnCenterDialog = btnCenterDialog;
     this.btnTestSnackbar = btnTestSnackbar;
     this.btnTestToast = btnTestToast;
+    this.btnTopDialog = btnTopDialog;
     this.content = content;
   }
 
@@ -68,9 +77,15 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btn_test_dialog;
-      Button btnTestDialog = ViewBindings.findChildViewById(rootView, id);
-      if (btnTestDialog == null) {
+      id = R.id.btn_bottom_dialog;
+      Button btnBottomDialog = ViewBindings.findChildViewById(rootView, id);
+      if (btnBottomDialog == null) {
+        break missingId;
+      }
+
+      id = R.id.btn_center_dialog;
+      Button btnCenterDialog = ViewBindings.findChildViewById(rootView, id);
+      if (btnCenterDialog == null) {
         break missingId;
       }
 
@@ -86,10 +101,16 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btn_top_dialog;
+      Button btnTopDialog = ViewBindings.findChildViewById(rootView, id);
+      if (btnTopDialog == null) {
+        break missingId;
+      }
+
       ConstraintLayout content = (ConstraintLayout) rootView;
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, btnTestDialog, btnTestSnackbar,
-          btnTestToast, content);
+      return new ActivityMainBinding((ConstraintLayout) rootView, btnBottomDialog, btnCenterDialog,
+          btnTestSnackbar, btnTestToast, btnTopDialog, content);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

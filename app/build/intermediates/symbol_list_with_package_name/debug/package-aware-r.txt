@@ -29,6 +29,8 @@ anim design_bottom_sheet_slide_in
 anim design_bottom_sheet_slide_out
 anim design_snackbar_in
 anim design_snackbar_out
+anim fade_in
+anim fade_out
 anim fragment_fast_out_extra_slow_in
 anim mtrl_bottom_sheet_slide_in
 anim mtrl_bottom_sheet_slide_out
@@ -2460,6 +2462,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable bottom_bg
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2543,6 +2546,7 @@ drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable top_bg
 font poppins_bold
 font poppins_semibold
 id ALT
@@ -2639,13 +2643,20 @@ id beginning
 id bestChoice
 id blocking
 id bottom
+id bottom_background
+id bottom_icon_iv
+id bottom_no_btn
+id bottom_text_tv
+id bottom_yes_btn
 id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id btn_test_dialog
+id btn_bottom_dialog
+id btn_center_dialog
 id btn_test_snackbar
 id btn_test_toast
+id btn_top_dialog
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3004,6 +3015,11 @@ id toastTypeIv
 id toggle
 id top
 id topPanel
+id top_background
+id top_icon_iv
+id top_no_btn
+id top_text_tv
+id top_yes_btn
 id touch_outside
 id transitionToEnd
 id transitionToStart
@@ -3122,7 +3138,9 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout confirm_dialog_bottom
 layout confirm_dialog_center
+layout confirm_dialog_top
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -4025,6 +4043,7 @@ style ThemeOverlay_MaterialComponents_Toolbar_Primary
 style ThemeOverlay_MaterialComponents_Toolbar_Surface
 style ThemeOverlayColorAccentRed
 style ToastText
+style TransparentCompat
 style Widget_AppCompat_ActionBar
 style Widget_AppCompat_ActionBar_Solid
 style Widget_AppCompat_ActionBar_TabBar

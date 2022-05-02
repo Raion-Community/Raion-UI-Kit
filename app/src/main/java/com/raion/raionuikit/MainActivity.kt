@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import com.example.raiondialog.RaionDialog
+import com.example.raiondialog.utils.DialogType
 import com.raion.raionsnackbar.RaionSneeze
 import com.raion.raiontoast.RaionToast
 import com.raion.raiontoast.util.ToastType
@@ -63,10 +64,11 @@ class MainActivity : AppCompatActivity() {
             ).show()*/
         }
 
-        binding.btnTestDialog.setOnClickListener {
+        binding.btnTopDialog.setOnClickListener {
             val dialog =
                 RaionDialog
-                    .ConfirmationDialog()
+                    .Confirmation()
+                    .setType(DialogType.TOP)
                     .setButtonText(
                         leftText = "KIRI",
                         rightText = "KANAN",
@@ -77,9 +79,90 @@ class MainActivity : AppCompatActivity() {
                         leftId = Color.BLUE,
                         rightId = Color.RED)
                     .setText(
-                        text = "Ini contoh custom text",
+                        text = "Ini contoh TOP text",
                         textColor = Color.WHITE
                         )
+                    .setBackgroundColor(Color.DKGRAY)
+                    .build(
+                        this,
+                        onLeftBtnClick = {
+                            val toast = RaionToast.Builder()
+                                .setContext(this@MainActivity)
+                                .setText("Tombol YES diklik")
+                            toast.setToastType(ToastType.SUCCESS)
+
+                            toast.build().show()
+                        },
+                        onRightBtnClick = {
+                            val toast = RaionToast.Builder()
+                                .setContext(this@MainActivity)
+                                .setText("Tombol NO diklik")
+                            toast.setToastType(ToastType.WARNING)
+
+                            toast.build().show()
+                        })
+
+            dialog.show()
+        }
+
+        binding.btnCenterDialog.setOnClickListener {
+            val dialog =
+                RaionDialog
+                    .Confirmation()
+                    .setButtonText(
+                        leftText = "KIRI",
+                        rightText = "KANAN",
+                        leftTextColor = Color.WHITE,
+                        rightTextColor = Color.WHITE
+                    )
+                    .setButtonColor(
+                        leftId = Color.BLUE,
+                        rightId = Color.RED)
+                    .setText(
+                        text = "Ini contoh CENTER text",
+                        textColor = Color.WHITE
+                    )
+                    .setBackgroundColor(Color.DKGRAY)
+                    .build(
+                        this,
+                        onLeftBtnClick = {
+                            val toast = RaionToast.Builder()
+                                .setContext(this@MainActivity)
+                                .setText("Tombol YES diklik")
+                            toast.setToastType(ToastType.SUCCESS)
+
+                            toast.build().show()
+                        },
+                        onRightBtnClick = {
+                            val toast = RaionToast.Builder()
+                                .setContext(this@MainActivity)
+                                .setText("Tombol NO diklik")
+                            toast.setToastType(ToastType.WARNING)
+
+                            toast.build().show()
+                        })
+
+            dialog.show()
+        }
+
+        binding.btnBottomDialog.setOnClickListener {
+            val dialog =
+                RaionDialog
+                    .Confirmation()
+                    .setType(DialogType.BOTTOM)
+                    .setButtonText(
+                        leftText = "KIRI",
+                        rightText = "KANAN",
+                        leftTextColor = Color.WHITE,
+                        rightTextColor = Color.WHITE
+                    )
+                    .setButtonColor(
+                        leftId = Color.BLUE,
+                        rightId = Color.RED)
+                    .setText(
+                        text = "Ini contoh TOP text",
+                        textColor = Color.WHITE
+                    )
                     .setBackgroundColor(Color.DKGRAY)
                     .build(
                         this,

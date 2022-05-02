@@ -1,6 +1,6 @@
 package com.example.raiondialog.utils
 
-enum class DialogPosition {
+enum class DialogType {
     TOP,
     CENTER,
     BOTTOM

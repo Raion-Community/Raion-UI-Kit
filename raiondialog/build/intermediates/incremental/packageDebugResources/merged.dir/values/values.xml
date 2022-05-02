@@ -5,6 +5,13 @@
     <color name="DefaultGray">#707070</color>
     <color name="DefaultRed">#FF6D6D</color>
     <color name="DefaultWhite">#F8F8F8</color>
+    <style name="TransparentCompat" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>
     <style name="bottom_animation">
         <item name="android:windowEnterAnimation">@anim/bottom_in</item>
         <item name="android:windowExitAnimation">@anim/bottom_out</item>
@@ -13,8 +20,8 @@
         <item name="cornerSize">8dp</item>
     </style>
     <style name="center_animation">
-        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
-        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
     </style>
     <style name="top_animation">
         <item name="android:windowEnterAnimation">@anim/top_in</item>

@@ -4,8 +4,8 @@
 4
 5    <uses-sdk
 6        android:minSdkVersion="21"
-6-->C:\Users\ACER\AndroidStudioProjects\Raion-UI-Kit\raionsnackbar\src\main\AndroidManifest.xml
+6-->D:\Projek Koding\Android Studio\Raion-UI-Kit\raionsnackbar\src\main\AndroidManifest.xml
 7        android:targetSdkVersion="31" />
-7-->C:\Users\ACER\AndroidStudioProjects\Raion-UI-Kit\raionsnackbar\src\main\AndroidManifest.xml
+7-->D:\Projek Koding\Android Studio\Raion-UI-Kit\raionsnackbar\src\main\AndroidManifest.xml
 8
 9</manifest>

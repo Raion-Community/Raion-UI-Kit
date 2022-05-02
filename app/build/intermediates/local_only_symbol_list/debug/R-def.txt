@@ -9,9 +9,11 @@ color teal_700
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
-id btn_test_dialog
+id btn_bottom_dialog
+id btn_center_dialog
 id btn_test_snackbar
 id btn_test_toast
+id btn_top_dialog
 id content
 layout activity_main
 mipmap ic_launcher
