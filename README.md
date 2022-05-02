@@ -109,8 +109,6 @@ RaionSneeze.showInfoSneeze(findViewById(R.id.content), "Hello there this is raio
 
 > Dialog currently available: `Confirmation dialog`
 
-> More dialog type will added soon, Insya'allah
-
 ### Confirmation Dialog Usage
 - Is Dialog type which has `Icon, Main text, Confirm Button, Cancel Button`
 - Default call method
