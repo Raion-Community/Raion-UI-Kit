@@ -115,17 +115,17 @@ Dialog currently available:
 - Default call method
 ```
 val dialog = RaionDialog
-    			.Confirmation()
-    			.build(
-    				context = (YOUR_APP_CONTEXT),
-    				onYesBtnClick = {
-    					/**DO SOMETHING HERE*/
-    				},
-    				onNoBtnClick = {
-    					/**DO SOMETHING HERE*/
-    				}
-    			)
-	dialog.show()
+    		.Confirmation()
+    		.build(
+    		    context = (YOUR_APP_CONTEXT),
+    			onYesBtnClick = {
+    				/**DO SOMETHING HERE*/
+    			},
+    			onNoBtnClick = {
+    				/**DO SOMETHING HERE*/
+    			}
+    		)
+dialog.show()
 ```
 - Available costumization function
   | Function  |  Parameter Type | Usage | Default Parameter Value  |
