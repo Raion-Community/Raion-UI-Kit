@@ -10,10 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dd39045-ad43-4f67-bf4d-160b14047a71" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/raion/raionuikit/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/raion/raionuikit/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/raiondialog/src/main/java/com/example/raiondialog/RaionDialog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/raiondialog/src/main/java/com/example/raiondialog/RaionDialog.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
