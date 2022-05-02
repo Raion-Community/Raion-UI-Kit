@@ -111,7 +111,7 @@ RaionSneeze.showInfoSneeze(findViewById(R.id.content), "Hello there this is raio
 
 ### Confirmation Dialog Usage
 - Is Dialog type which has `Icon, Main text, Confirm Button, Cancel Button`
-  <img src="https://github.com/KylixEza/Raion-UI-Kit/blob/1.1.1/raiondialog/sample%20gif/confirmation%20dialog.gif" width="512">
+![]("https://github.com/KylixEza/Raion-UI-Kit/blob/1.1.1/raiondialog/sample%20gif/confirmation%20dialog.gif" | width = 320px)
 - Default call method
 ```
 val dialog = RaionDialog
