@@ -105,6 +105,44 @@ RaionSneeze.makeInfoSneeze(findViewById(R.id.content), "Hello there this is raio
 RaionSneeze.showInfoSneeze(findViewById(R.id.content), "Hello there this is raion snackbar", Snackbar.LENGTH_LONG)
 ```
 
+#RaionDialog 📃
+
+Dialog currently available:
+- Confirmation dialog
+
+##- Confirmation Dialog
+Dialog type which has `Icon, Main text, Confirm Button, Cancel Button`
+###Usage
+- Default call method
+```
+val dialog = RaionDialog
+    			.Confirmation()
+    			.build(
+    				context = (YOUR_APP_CONTEXT),
+    				onYesBtnClick = {
+    					/**DO SOMETHING HERE*/
+    				},
+    				onNoBtnClick = {
+    					/**DO SOMETHING HERE*/
+    				}
+    			)
+	dialog.show()
+```
+- Available costumization function
+  | Function  |  Parameter Type | Usage | Default Parameter Value  |
+  | ------------ | ------------ | ------------ | ------------ |
+  |  `setButtonColor` | `yesColorId:Int` & `noColorId:Int`  | to set colors of Yes & No button  |  `R.color.DefaultCyan, R.color.DefaultRed` |
+  |  `setButtonText` | `leftText:String`, `rightText:String`, `leftTextColor:Int`,  `rightTextColor:Int`  | to set text of each button, and set the color of the text  | `"yes", "no", R.color.DefaultBlack, R.color.DefaultBlack`  |
+  | `setText` | `text:String` & `textColor:Int` | to set the main text and its color  | `"Confirm?", R.color.DefaultBlack`  |
+  |  `setBackgroundColor` | `colorId:Int`  | to set background color of the dialog  | `R.color.DefaultWhite`  |
+  | `setIcon` | `iconId:Int` |  to set main icon of dialog, the default is Raion Logo | `R.drawable.icon_raion`  |
+  |  `setType` | `dialogType:DialogType`  | to change the dialog type, such as TOP, CENTER, and BOTTOM  | `DialogType.CENTER`  |
+  | `build`  | `context:Context`, `onYesBtnClick:Unit`, `onNoBtnClick:Unit`  | to build the dialog. This function must be called last  | no default parameter, all parameter must be implemented  |
+
+
+
+- You can costumize the dialog with calling available function before calling `build` function
+
 ## Contributing
 
 Please fork this repository and contribute back using.

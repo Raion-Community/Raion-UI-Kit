@@ -37,11 +37,11 @@ class RaionDialog {
         private var leftButtonColor = R.color.DefaultCyan
         private var rightButtonColor = R.color.DefaultRed
         fun setButtonColor(
-            leftId: Int = R.color.DefaultCyan,
-            rightId: Int = R.color.DefaultRed
+            yesColorId: Int = R.color.DefaultCyan,
+            noColorId: Int = R.color.DefaultRed
         ) = apply {
-            leftButtonColor = leftId
-            rightButtonColor = rightId
+            leftButtonColor = yesColorId
+            rightButtonColor = noColorId
         }
         /**[END]*/
 
@@ -128,8 +128,8 @@ class RaionDialog {
         @SuppressLint("ResourceAsColor")
         fun build(
             context: Context,
-            onLeftBtnClick: () -> Unit,
-            onRightBtnClick: () -> Unit
+            onYesBtnClick: () -> Unit,
+            onNoBtnClick: () -> Unit
         ): Dialog {
             val dialog = Dialog(context)
             dialog.setContentView(layout)
@@ -176,10 +176,10 @@ class RaionDialog {
 
             //Set btn clickListener
             leftBtn.setOnClickListener {
-                onLeftBtnClick()
+                onYesBtnClick()
             }
             rightBtn.setOnClickListener {
-                onRightBtnClick()
+                onNoBtnClick()
             }
 
             return dialog

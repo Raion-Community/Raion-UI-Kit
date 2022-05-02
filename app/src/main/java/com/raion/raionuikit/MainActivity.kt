@@ -3,7 +3,6 @@ package com.raion.raionuikit
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 import com.example.raiondialog.RaionDialog
 import com.example.raiondialog.utils.DialogType
 import com.raion.raionsnackbar.RaionSneeze
@@ -76,8 +75,8 @@ class MainActivity : AppCompatActivity() {
                         rightTextColor = Color.WHITE
                     )
                     .setButtonColor(
-                        leftId = Color.BLUE,
-                        rightId = Color.RED)
+                        yesColorId = Color.BLUE,
+                        noColorId = Color.RED)
                     .setText(
                         text = "Ini contoh TOP text",
                         textColor = Color.WHITE
@@ -85,7 +84,7 @@ class MainActivity : AppCompatActivity() {
                     .setBackgroundColor(Color.DKGRAY)
                     .build(
                         this,
-                        onLeftBtnClick = {
+                        onYesBtnClick = {
                             val toast = RaionToast.Builder()
                                 .setContext(this@MainActivity)
                                 .setText("Tombol YES diklik")
@@ -93,7 +92,7 @@ class MainActivity : AppCompatActivity() {
 
                             toast.build().show()
                         },
-                        onRightBtnClick = {
+                        onNoBtnClick = {
                             val toast = RaionToast.Builder()
                                 .setContext(this@MainActivity)
                                 .setText("Tombol NO diklik")
@@ -116,8 +115,8 @@ class MainActivity : AppCompatActivity() {
                         rightTextColor = Color.WHITE
                     )
                     .setButtonColor(
-                        leftId = Color.BLUE,
-                        rightId = Color.RED)
+                        yesColorId = Color.BLUE,
+                        noColorId = Color.RED)
                     .setText(
                         text = "Ini contoh CENTER text",
                         textColor = Color.WHITE
@@ -125,7 +124,7 @@ class MainActivity : AppCompatActivity() {
                     .setBackgroundColor(Color.DKGRAY)
                     .build(
                         this,
-                        onLeftBtnClick = {
+                        onYesBtnClick = {
                             val toast = RaionToast.Builder()
                                 .setContext(this@MainActivity)
                                 .setText("Tombol YES diklik")
@@ -133,7 +132,7 @@ class MainActivity : AppCompatActivity() {
 
                             toast.build().show()
                         },
-                        onRightBtnClick = {
+                        onNoBtnClick = {
                             val toast = RaionToast.Builder()
                                 .setContext(this@MainActivity)
                                 .setText("Tombol NO diklik")
@@ -157,8 +156,8 @@ class MainActivity : AppCompatActivity() {
                         rightTextColor = Color.WHITE
                     )
                     .setButtonColor(
-                        leftId = Color.BLUE,
-                        rightId = Color.RED)
+                        yesColorId = Color.BLUE,
+                        noColorId = Color.RED)
                     .setText(
                         text = "Ini contoh TOP text",
                         textColor = Color.WHITE
@@ -166,7 +165,7 @@ class MainActivity : AppCompatActivity() {
                     .setBackgroundColor(Color.DKGRAY)
                     .build(
                         this,
-                        onLeftBtnClick = {
+                        onYesBtnClick = {
                             val toast = RaionToast.Builder()
                                 .setContext(this@MainActivity)
                                 .setText("Tombol YES diklik")
@@ -174,7 +173,7 @@ class MainActivity : AppCompatActivity() {
 
                             toast.build().show()
                         },
-                        onRightBtnClick = {
+                        onNoBtnClick = {
                             val toast = RaionToast.Builder()
                                 .setContext(this@MainActivity)
                                 .setText("Tombol NO diklik")
