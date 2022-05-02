@@ -116,15 +116,7 @@ Dialog currently available:
 ```
 val dialog = RaionDialog
     		.Confirmation()
-    		.build(
-    		context = (YOUR_APP_CONTEXT),
-    		onYesBtnClick = {
-    		/**DO SOMETHING HERE*/
-    		},
-    		onNoBtnClick = {
-    		/**DO SOMETHING HERE*/
-    		}
-    		)
+    		.build(context, onYesBtnClick = {...},onNoBtnClick = {...})
 dialog.show()
 ```
 - Available costumization function
