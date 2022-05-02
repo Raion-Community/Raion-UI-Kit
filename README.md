@@ -132,7 +132,7 @@ dialog.show()
 
 
 
-** - You can costumize the dialog with calling available function before calling `build` function **
+**- You can costumize the dialog with calling available function before calling `build` function**
 
 ## Contributing
 
