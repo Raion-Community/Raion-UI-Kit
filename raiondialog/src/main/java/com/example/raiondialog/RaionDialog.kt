@@ -107,7 +107,14 @@ class RaionDialog {
                     noBtn = R.id.top_no_btn
                 }
                 DialogType.CENTER -> {
-
+                    layout = R.layout.confirm_dialog_center
+                    animation = R.style.center_animation
+                    gravity = Gravity.CENTER
+                    dialogBG = R.id.center_background
+                    dialogIcon = R.id.center_icon_iv
+                    dialogText = R.id.center_text_tv
+                    yesBtn = R.id.center_yes_btn
+                    noBtn = R.id.center_no_btn
                 }
                 DialogType.BOTTOM -> {
                     layout = R.layout.confirm_dialog_bottom
