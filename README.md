@@ -139,12 +139,26 @@ dialog.show()
 
 **>> You can costumize the dialog with calling available function before calling `build` function**
 
-## Contributing
+## Licenses
 
-Please fork this repository and contribute back using.
+Raion-UI-Kit is under MIT License and Raion Community License
 
-Any contributions, large or small, major features, bug fixes, are welcomed and appreciated
-but will be thoroughly reviewed .
+```
+Raion Community License
+
+Copyright (c) 2022 Raion Community Faculty of Computer Science University of Brawijaya
+
+This project belongs to Raion Community
+
+Raion-UI-Kit is partially open. This project open to use for everyone but 
+close for any changes from outside Raion Community. If any developers are 
+interested to contribute in this project but are not the part of Raion Community, 
+they must contact the Project Lead or Raion Community through social media
+(Recommend to contact via Instagram or LinkedIn).
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of this project.
+```
 
 ## Contributors
 <p>
