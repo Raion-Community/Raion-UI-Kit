@@ -2,6 +2,10 @@
 [![License](https://img.shields.io/badge/license-MIT-EA4235.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 [![jitpack](https://jitpack.io/v/KylixEza/Raion-UI-Kit.svg)](https://jitpack.io/#KylixEza/Raion-UI-Kit)
 
+<div align="center">
+<img width="50%" height = "50%" src="https://user-images.githubusercontent.com/58837451/166941873-5e93e57a-d3c9-4183-96c1-a9bf5e7cfd8a.png" />
+</div>
+
 # Raion-UI-Kit📚
 
 ### Prerequisites
